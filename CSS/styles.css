@@ -439,7 +439,8 @@ td {
 }
 
 .td-desc {
-  padding-top: 0;
+  /*padding-top: 0;*/
+  vertical-align: top;
 }
 
 .table-photo {
@@ -547,6 +548,11 @@ h4 {
   width: 100%;
 }
 
+@media screen and (max-width: 1340px) {
+  .show-nav-arrow {
+    display: none;
+  }
+}
 @media screen and (max-width: 1215px) {
   .th-1 {
     text-align: left;
@@ -697,7 +703,12 @@ h4 {
     }
 
     .main-content {
+      margin: 0 auto;
       padding: 0;
+    }
+
+    .circle-graphs {
+      margin: 0 auto;
     }
 }
 
