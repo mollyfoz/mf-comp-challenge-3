@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="CSS/normalize.css">
+    <link rel="stylesheet" type="text/css" href="CSS/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+    <title>MF-static-comp-3</title>
+  </head>
+
+  <body>
+
+    <aside role="main navigation menu" class="main-navigation">
+
+      <nav class="profile">
+        <img class="profile-photo" src="assets/nav-assets/leia.jpg" alt="photo of current user">
+        <p class="user-name">Leia Organa<img class="icon profile-icon" alt="down-arrow icon" src="assets/nav-assets/nav-icons/svg/012-down-arrow.svg"></p>
+      </nav>
+
+      <nav class="main-nav">
+        <h6>Main</h6>
+        <ul>
+          <li><img class="icon" alt="home icon" src="assets/nav-assets/nav-icons/svg/011-house-black-silhouette-without-door.svg">HOME</li>
+          <li><img class="icon" alt="briefcase icon" src="assets/nav-assets/nav-icons/svg/010-office-briefcase.svg">JOBS</li>
+          <li><img class="icon" alt="page list icon" src="assets/nav-assets/nav-icons/svg/009-list.svg">RESUMES</li>
+          <li><img class="icon" alt="task list icon" src="assets/nav-assets/nav-icons/svg/008-completed-tasks-hand-drawn-clipboard-sign-with-verification-mark.svg">TASKS</li>
+          <li><img class="icon" alt="calendar icon" src="assets/nav-assets/nav-icons/svg/007-calendar-daily-page-on-day-31.svg">CALENDAR</li>
+        </ul>
+      </nav>
+
+      <nav class="admin-nav-main">
+        <h6>Admin</h6>
+        <ul>
+          <li><img class="icon" alt="several users icon" src="assets/nav-assets/nav-icons/svg/005-multiple-users-silhouette.svg">USERS</li>
+          <li><img class="icon" alt="map location icon" src="assets/nav-assets/nav-icons/svg/004-placeholder.svg">LOCATIONS</li>
+          <li><img class="icon" alt="flow chart icon" src="assets/nav-assets/nav-icons/svg/003-diagram.svg">WORKFLOWS</li>
+          <li><img class="icon" alt="job posting icon" src="assets/nav-assets/nav-icons/svg/002-post-it.svg">JOB BOARDS</li>
+          <li><img class="icon" alt="social network icon" src="assets/nav-assets/nav-icons/svg/001-network.svg">SOCIAL</li>
+        </ul>
+      </nav>
+
+      <nav class="categories-nav-main">
+          <h6>Categories</h6>
+          <div class="checkbox-area">
+            <input type="checkbox" class="check-box" id="admin" name="box">
+            <label for="admin">Administrative</label>
+          </div>
+          <div class="checkbox-area">
+            <input type="checkbox" class="check-box" id="design" name="box">
+            <label for="design">Design</label>
+          </div>
+          <div class="checkbox-area">
+            <input type="checkbox" class="check-box" id="exec" name="box">
+            <label for="exec">Executive</label>
+          </div>
+          <div class="checkbox-area">
+            <input type="checkbox" class="check-box" id="human-res" name="box">
+            <label for="human-res">Human Resources</label>
+          </div>
+      </nav>
+    </aside>
+
+  <main>
+
+    <header>
+
+      <section role="secondary navigation menu" class="secondary-nav">
+        <button aria-label="Show navigation menu" class="header-btn" type="button">
+          <img class="icon show-nav-arrow" alt="left arrow icon" src="assets/header-icons/svg/left-arrow.svg">
+          <img class="icon show-nav-btn" alt="navigation menu icon" src="assets/header-icons/svg/005-menu-button-of-three-horizontal-lines.svg"></button>
+        <input type="text area" name="Search" id="input-search" placeholder="Search for a job, task, or resume">
+        <label for="input-search"></label>
+        <button aria-label="Add user profile" class="add-user header-btn" type="button">
+          <img class="icon add-user-btn" alt="add new user icon" src="assets/header-icons/svg/003-add-user.svg"></button>
+        <button aria-label="Calendar view" class="header-btn" type="button">
+          <img class="icon calendar-view-btn" alt="calendar icon" src="assets/header-icons/svg/004-calendar.svg"</button>
+        <button aria-label="Grid view" class="header-btn" type="button">
+          <img class="icon grid-view-btn" alt="grid view icon" src="assets/header-icons/svg/002-keyboard-buttons-or-visualization-button-of-nine-squares.svg"></button>
+      </section>
+
+      <section role="user title and information" class="main-info">
+        <h1>Rebel Leader</h1>
+          <div class="sub-text">
+            <img class="icon location-icon" alt="map location icon" src="assets/header-icons/svg/002-facebook-placeholder-for-locate-places-on-maps.svg">
+            <p class="city-name">Alderaan</p>
+            <img class="icon divider-icon" alt="text section divider icon" src="assets/header-icons/svg/001-circle.svg">
+            <a role="link to post" href="" target="_blank">Preview this post</a>
+          </div>
+      </section>
+
+      <nav role="navigation" class="right-side-btns">
+        <button aria-label="Open item" class="main-btn open-btn" type="button">
+          <img class="icon open-item-btn" alt="green circle icon" src="assets/header-icons/svg/green-circle.svg">OPEN</button>
+        <button aria-label="Bookmark item" class="main-btn" type="button">
+          <img class="icon ribbon-btn" src="assets/header-icons/svg/002-ribbon.svg"></button>
+        <button aria-label="Edit item" class="main-btn" type="button">
+          <img class="icon edit-item-btn" alt="pencil icon" src="assets/header-icons/svg/003-draw.svg"></button>
+        <button aria-label="Delete item" class="main-btn" type="button">
+          <img class="icon delete-item-btn" alt="send to trash icon" src="assets/header-icons/svg/001-photo.svg"></button>
+      </nav>
+
+      <nav role="navigation" class="tabs">
+        <ul class="tabs-list">
+          <li class="tabs-li">SUMMARY</li>
+          <li class="tabs-li">APPLICANTS</li>
+          <li class="tabs-li">JOB BOARD</li>
+          <li class="tabs-li">INTERVIEWS</li>
+          <li class="tabs-li">ACTIVITY</li>
+          <li class="tabs-li">BROADCAST</li>
+          <li class="tabs-li">NOTIFICATIONS</li>
+        <ul>
+      </nav>
+
+    </header>
+
+    <section role="main profile content" class="main-content">
+      <div class="graph-section">
+      <section class="graph-content-circle">
+        <article class="circle-graphs">
+          <div class="circle">
+            <svg width="88%" height="88%" viewBox="0 0 42 42" class="donut">
+              <circle class="donut-ring" cx="21" cy="21" r="18.91549430918954" fill="transparent" stroke="#d2d3d4" stroke-width="3"></circle>
+              <circle class="donut-segment" cx="21" cy="21" r="18.91549430918954" fill="transparent" stroke="#4EB8C0" stroke-width="3" stroke-dasharray="75 25" stroke-dashoffset="75"></circle>
+              <g class="circle-text">
+                <text x="50%" y="50%" class="circle-number">
+                  3,146
+                </text>
+                <text x="50%" y="50%" class="circle-label">
+                  APPLICANTS
+                </text>
+              </g>
+            </svg>
+          </div>
+          <div class="circle">
+            <svg width="88%" height="88%" viewBox="0 0 42 42" class="donut">
+              <circle class="donut-ring" cx="21" cy="21" r="18.91549430918954" fill="transparent" stroke="#d2d3d4" stroke-width="3"></circle>
+              <circle class="donut-segment" cx="21" cy="21" r="18.91549430918954" fill="transparent" stroke="#4EB8C0" stroke-width="3" stroke-dasharray="48 52" stroke-dashoffset="80"></circle>
+              <g class="circle-text">
+                <text x="50%" y="50%" class="circle-number">
+                1,546
+                </text>
+                <text x="50%" y="50%" class="circle-label">
+                  INTERVIEWS
+                </text>
+              </g>
+            </svg>
+          </div>
+          <div class="circle">
+            <svg width="88%" height="88%" viewBox="0 0 42 42" class="donut">
+              <circle class="donut-ring" cx="21" cy="21" r="18.91549430918954" fill="transparent" stroke="#d2d3d4" stroke-width="3"></circle>
+              <circle class="donut-segment" cx="21" cy="21" r="18.91549430918954" fill="transparent" stroke="#4EB8C0" stroke-width="3" stroke-dasharray="30 70" stroke-dashoffset="75"></circle>
+              <g class="circle-text">
+                <text x="50%" y="50%" class="circle-number">
+                  912
+                </text>
+                <text x="50%" y="50%" class="circle-label">
+                  FORWARDS
+                </text>
+              </g>
+            </svg>
+          </div>
+        </article>
+          <button aria-label="Interact with graph" class="graph-button  circle-graph-btn" type="button">TOTALS - Out of 5,231 views</button>
+      </section>
+      <section class="graph-content-bar">
+        <article class="bar-graph">
+          <img class="bar-graph-img" alt="bar graph of applicant data" src="assets/bar-graph-img.png">
+        </article>
+          <button aria-label="Interact with graph" class="graph-button  bar-graph-btn" type="button">APPLICANTS/ DAY</button>
+      </section>
+    </div>
+
+      <section class="main-table-content">
+        <table role="user statistics">
+          <tr>
+            <th class="th-1">JOB DESCRIPTION</th>
+            <th class="th-2"><img src="assets/header-icons/svg/003-draw.svg" class="icon edit-icon">EDIT</th>
+          </tr>
+          <tr>
+            <td class="td-1">POSITION TITLE</td>
+            <td>Customer Service Representative</td>
+          </tr>
+          <tr>
+            <td class="td-1">EMPLOYMENT TYPE</td>
+            <td>Full-time</td>
+          </tr>
+          <tr>
+            <td class="td-1">EXPERIENCE</td>
+            <td>Mid-level</td>
+          </tr>
+          <tr>
+            <td class="td-1">STATUS</td>
+            <td>Open</td>
+          </tr>
+          <tr>
+            <td class="td-1 td-desc">DESCRIPTION</td>
+            <td>Luke! You must complete the training. I can't keep the vision out of my head. They're my friends. I've got to help them. You must not go! But Han and Leia will die if I don't. You don't know that. Even Yoda cannot see their fate.</td>
+          </tr>
+          <tr>
+            <td class="td-1 td-photo-row">HIRING LEAD</td>
+            <td class="td-2"><p class="align-elements"><img src="assets/main-assets/luke.jpg" alt="photo of hiring lead" class="table-photo"/>Luke Skywalker</p></td>
+          </tr>
+          <tr>
+            <td class="td-1">APPROVED SALARY</td>
+            <td>$80,000</td>
+          </tr>
+        </table>
+    </section>
+
+    <aside role="share information section" class="main-content-aside">
+      <div class="social-media">
+        <button class="social-btn fb-btn" type="button">
+        <img class="icon social-icon" alt="facbook icon" src="assets/main-assets/003-facebook-logo.svg"/>Post to Facebook</button>
+        <button class="social-btn twit-btn" type="button">
+        <img class="icon social-icon twit-icon" alt="twitter icon" src="assets/main-assets/002-twitter-logo-silhouette.svg"/>Tweet this Job</button>
+        <button class="social-btn linked-btn" type="button">
+        <img class="icon social-icon" alt="linkedin icon" src="assets/main-assets/001-linkedin-logo.svg"/>Post to LinkedIn</button>
+        <h4><img class="icon aside-2-icon" alt="earth icon" src="assets/main-assets/003-world.svg"/>Link to This Job</h4>
+          <p class="caption">You must not go! But Han and Leia will die if I don't. You don't know that.</p>
+          <div class="link-items">
+            <a class="link-box" href="" target="_blank">https://www.theinternet.com</a>
+            <button class="copy-link" type="button">Copy</button>
+          </div>
+        <h4><img class="icon aside-2-icon" alt="widget button icon" src="assets/main-assets/002-bars.svg"/>Use the Button Widget</h4>
+          <p class="caption">You must not go! But Han and Leia will die if I don't. You don't know that.</p>
+          <div class="link-items">
+            <a class="link-box" href="" target="_blank">https://www.theinternet.com</a>
+            <button class="copy-link" type="button">Copy</button>
+        </div>
+        <h4><img class="icon aside-2-icon" alt="paper plane icon" src="assets/main-assets/001-paper-plane.svg"/>Upload Resumes By Email</h4>
+          <p class="caption">You must not go! But Han and Leia will die if I don't. You don't know that.</p>
+          <a class="link-box link-box-3" href="" target="_blank">https://www.theinternet.com</a>
+      </div>
+  </aside>
+
+  </body>
+
+</html>
