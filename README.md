@@ -10,4 +10,4 @@ Special consideration on this project was given toward accessibility markup, ref
 
 
 ### Final Comp
-![image of recreated comp](assets/Screen Shot 2017-06-06 at 11.55.14 PM.png)
+![image of recreated comp](https://github.com/mollyfoz/mf-comp-challenge-3/blob/master/assets/Screen%20Shot%202017-06-06%20at%2011.55.14%20PM.png)
